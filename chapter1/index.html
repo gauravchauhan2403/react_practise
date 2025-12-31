@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Namaste React</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+  <!-- <h1>Hello world</h1> -->   
+   <!-- Apart from directly rendering htmltags from here we will try to add it through javascript -->
+  <!-- Including Html usinf javascript -->
+  <div id="root"></div>
+
+
+<script>
+  /** **************** JAVASCRIPT CODE *****************
+  const heading = document.createElement("h1");
+  heading.innerHTML  = "Hello world from JS!";
+  // now we have created the element h1 using createElement method provided by browser
+  //  and write the content using innerHTML tag.
+  const root = document.getElementById("root");
+  root.appendChild(heading);
+  // now we used document.getElementById method from browser to get the root div and using appendChild method, we are injecting 
+  //  the HTMl inside div tag using javascript.
+  
+  ************************* *****************************/
+ </script>
+ <!-- /* ****************REACT CODE **************************
+      //  First we will invokde react into our project using CDN: content delivery networks
+ *************** ****************** ********************* */ -->
+<script crossorigin 
+  src="https://unpkg.com/react@18/umd/react.development.js">
+</script>
+<script crossorigin 
+  src="https://unpkg.com/react-dom@18/umd/react-dom.development.js">
+</script>
+<!-- 
+<script>
+  // here createElement is given by React file and CreateRoot is given by ReactDOM
+  // The create element takes 3 parameters i)HTMl tag ii) object(provide attributes) iii) value to display
+  const heading = React.createElement("h1", {}, "Hello from React");
+  const root = ReactDOM.createRoot(document.getElementById("root"));
+  root.render(heading);
+
+  //  Now if I need to shift the code to a file from where we will invoke it here. lets say app.js
+</script>
+ -->
+<script src="./app.js" />
+
+</body>
+</html>
