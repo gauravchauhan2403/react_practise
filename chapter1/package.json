@@ -1,0 +1,23 @@
+{
+  "name": "chapter1",
+  "version": "1.0.0",
+  "description": "This is a react App for learning",
+  "homepage": "https://github.com/gauravchauhan2403/react_practise/tree/main#readme",
+  "bugs": {
+    "url": "https://github.com/gauravchauhan2403/react_practise/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gauravchauhan2403/react_practise.git#main"
+  },
+  "license": "ISC",
+  "author": "Gaurav chauhan",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.3"
+  }
+}
