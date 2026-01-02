@@ -1,0 +1,36 @@
+{
+  "name": "chapter2",
+  "version": "1.0.0",
+  "description": "\"Starting with react from now as of chapter 3\"",
+  "keywords": [
+    "React",
+    "starting",
+    "customScriptForRun"
+  ],
+  "homepage": "https://github.com/gauravchauhan2403/react_practise/tree/main#readme",
+  "bugs": {
+    "url": "https://github.com/gauravchauhan2403/react_practise/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gauravchauhan2403/react_practise.git#main"
+  },
+  "license": "ISC",
+  "author": "GGC",
+  "type": "commonjs",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.3"
+  },
+  "dependencies": {
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+
+}
